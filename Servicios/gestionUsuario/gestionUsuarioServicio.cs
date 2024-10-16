@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace trofeoDelCazadorServicio.Servicios.gestionUsuario
 {
-    internal class gestionUsuarioServicio 
+    public class gestionUsuarioServicio : IGestionUsuario
     {
+        public void agregarCuenta(Cuenta cuenta)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

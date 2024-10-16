@@ -9,8 +9,8 @@ using dataAccess;
 
 namespace trofeoDelCazadorServicio.Servicios.gestionUsuario
 {
-    [ServiceContract(CallbackContract = typeof(IGestionUsuario))]
-    internal interface IGestionUsuario 
+    [ServiceContract(CallbackContract = typeof(IGestionUsuarioCallBack))]
+    public interface IGestionUsuario 
     {
         [OperationContract(IsOneWay = true)]
         void agregarCuenta(Cuenta cuenta);

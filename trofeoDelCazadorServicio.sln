@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trofeoDelCazadorServicio", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dataAccess", "..\dataAccess\dataAccess.csproj", "{E4B87E4C-D6E2-4ECB-91D4-4F7735A2E653}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "host", "..\host\host.csproj", "{D49CEEF3-52C1-4E87-A053-3F564B578B94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "host", "..\host\host.csproj", "{10F30DE1-9B92-4E5F-9D84-F7CB72797C12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{E4B87E4C-D6E2-4ECB-91D4-4F7735A2E653}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4B87E4C-D6E2-4ECB-91D4-4F7735A2E653}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4B87E4C-D6E2-4ECB-91D4-4F7735A2E653}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D49CEEF3-52C1-4E87-A053-3F564B578B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D49CEEF3-52C1-4E87-A053-3F564B578B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D49CEEF3-52C1-4E87-A053-3F564B578B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D49CEEF3-52C1-4E87-A053-3F564B578B94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F30DE1-9B92-4E5F-9D84-F7CB72797C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F30DE1-9B92-4E5F-9D84-F7CB72797C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F30DE1-9B92-4E5F-9D84-F7CB72797C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F30DE1-9B92-4E5F-9D84-F7CB72797C12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
