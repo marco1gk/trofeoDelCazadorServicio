@@ -13,7 +13,7 @@ namespace trofeoDelCazadorServicio.Servicios.gestionUsuario
     public interface IGestionUsuario
     {
         [OperationContract]
-        int agregarJugador(Jugador jugador);
+        int agregarJugador(Jugadorr jugador);
 
 
 
@@ -21,7 +21,7 @@ namespace trofeoDelCazadorServicio.Servicios.gestionUsuario
     }
 
     [DataContract]
-    public class Jugador
+    public class Jugadorr
     {
         [DataMember]
         public int idJugador { get; set; }
@@ -46,7 +46,7 @@ namespace trofeoDelCazadorServicio.Servicios.gestionUsuario
     }
 
     [DataContract]
-    public class Cuenta
+    public class Cuentaa
     {
         [DataMember]
         public int idCuenta { get; set; }
