@@ -1,4 +1,5 @@
-﻿using System;
+﻿using dataAccess;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +9,10 @@ namespace trofeoDelCazadorServicio.Servicios.gestionUsuario
 {
     public class gestionUsuarioServicio : IGestionUsuario
     {
-        public void agregarCuenta(Cuenta cuenta)
+        public int agregarJugador(Jugador jugador)
         {
-            throw new NotImplementedException();
-        }
+            Console.WriteLine("ESTA FUNCIONANDOOO)");
+            return 1;
+                }
     }
 }
