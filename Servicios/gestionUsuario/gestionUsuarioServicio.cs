@@ -52,6 +52,7 @@ namespace trofeoDelCazadorServicio.Servicios.gestionUsuario
                 }
                 catch (Exception ex)
                 {
+                    Console.WriteLine(ex.StackTrace);
                     // Manejar la excepción
                     Console.WriteLine($"Error al agregar el jugador y la cuenta: {ex.Message}");
                     return -1; // Código de error
