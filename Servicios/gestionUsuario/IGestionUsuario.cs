@@ -6,11 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization;
 using dataAccess;
-<<<<<<< HEAD
 using System.Globalization;
-=======
 using System.Security.Principal;
->>>>>>> nada
+
 
 namespace trofeoDelCazadorServicio.Servicios.gestionUsuario
 {
@@ -19,7 +17,7 @@ namespace trofeoDelCazadorServicio.Servicios.gestionUsuario
     {
         [OperationContract]
         int agregarJugador(Jugadorr jugador);
-<<<<<<< HEAD
+
 
         /*[OperationContract]
         void editarNombreJugador(int idJugador, string nuevoNombre);
@@ -38,9 +36,6 @@ namespace trofeoDelCazadorServicio.Servicios.gestionUsuario
 
         [OperationContract]
         Jugadorr obtenerJugador(int idJugador);
-=======
-    
->>>>>>> nada
     }
 
     [DataContract]
