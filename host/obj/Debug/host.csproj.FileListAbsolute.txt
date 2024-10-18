@@ -1,0 +1,2 @@
+C:\Users\vaoma\source\repos\host\obj\Debug\host.csproj.AssemblyReference.cache
+C:\Users\vaoma\source\repos\host\obj\Debug\host.csproj.CoreCompileInputs.cache
