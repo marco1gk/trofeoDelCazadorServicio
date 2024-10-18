@@ -20,8 +20,8 @@ namespace trofeoDelCazadorServicio.Logica
                     // Crear una nueva cuenta dentro del método
                     var nuevaCuenta = new Cuenta // La entidad debe reflejar la tabla en la base de datos
                     {
-                        correo = "ejemplo@correo.com", // Generar el correo o recibirlo dinámicamente
-                        contrasenia = "123456", // Recibir o generar la contraseña
+                        //correo = "ejemplo@correo.com", // Generar el correo o recibirlo dinámicamente
+                        //contrasenia = "123456", // Recibir o generar la contraseña
                         nombre = "Nombre", // Nombre dinámico o predeterminado
                         apellido = "Apellido", // Apellido dinámico o predeterminado
                         fechaRegistro = DateTime.Now // Fecha de registro actual
@@ -38,7 +38,9 @@ namespace trofeoDelCazadorServicio.Logica
                         fechaNacimiento = jugador.fechaNacimiento,
                         partidasJugadas = jugador.partidasJugadas,
                         partidasGanadas = jugador.partidasGanadas,
-                        fechaRegistro = DateTime.Now, // Asignar la fecha actual
+                        correo = "ejemplo@correo.com",
+                        contrasenia = "123456",
+                        //fechaRegistro = DateTime.Now, // Asignar la fecha actual
                         idCuenta = nuevaCuenta.idCuenta // Relacionar con la cuenta creada
                     };
 
@@ -75,7 +77,6 @@ namespace trofeoDelCazadorServicio.Logica
                         fechaNacimiento = jugador.fechaNacimiento,
                         partidasJugadas = jugador.partidasJugadas,
                         partidasGanadas = jugador.partidasGanadas,
-                        fechaRegistro = jugador.fechaRegistro,
                         idCuenta = jugador.idCuenta,
                         // Si necesitas el correo, nombre y apellido de la cuenta, agrégalo aquí.
                     };
