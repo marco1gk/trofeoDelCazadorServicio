@@ -7,18 +7,13 @@ using System.Threading.Tasks;
 using trofeoDelCazadorServicio.Logica;
 
 
-=======
-using System.Linq;
-using System.Data.Entity;
-using dataAccess;
-using System.ServiceModel;
->>>>>>> nada
+
 
 namespace trofeoDelCazadorServicio.Servicios.gestionUsuario
 {
     public class gestionUsuarioServicio : IGestionUsuario
     {
-<<<<<<< HEAD
+
         private readonly gestionUsuarioLogica _gestionUsuarioLogica;
 
         // Constructor
@@ -37,7 +32,7 @@ namespace trofeoDelCazadorServicio.Servicios.gestionUsuario
         public Jugadorr obtenerJugador(int idJugador)
         {
             return _gestionUsuarioLogica.obtenerJugador(idJugador);
-=======
+
         public int agregarJugador(Jugadorr jugador)
         {
             using (var context = new ModeloBDContainer())
@@ -88,7 +83,7 @@ namespace trofeoDelCazadorServicio.Servicios.gestionUsuario
                     }
                 }
             }
->>>>>>> nada
+
         }
 
     }
