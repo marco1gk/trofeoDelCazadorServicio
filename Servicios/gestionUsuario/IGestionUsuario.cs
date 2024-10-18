@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization;
 using dataAccess;
+using System.Globalization;
 
 namespace trofeoDelCazadorServicio.Servicios.gestionUsuario
 {
@@ -15,9 +16,23 @@ namespace trofeoDelCazadorServicio.Servicios.gestionUsuario
         [OperationContract]
         int agregarJugador(Jugadorr jugador);
 
+        /*[OperationContract]
+        void editarNombreJugador(int idJugador, string nuevoNombre);
 
+        [OperationContract]
+        void editarApellidoJugador(int idJugador, string nuevoApellido);
 
+        [OperationContract]
+        void editarUsuario(int idJugador, string nuevoUsuario);
 
+        [OperationContract]
+        void editarCorreo(int idJugador, string nuevoCorreo);
+
+        [OperationContract]
+        void editarContrasenia(int idJugador, string nuevacontrasenia);*/
+
+        [OperationContract]
+        Jugadorr obtenerJugador(int idJugador);
     }
 
     [DataContract]
